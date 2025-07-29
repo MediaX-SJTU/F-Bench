@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="F-Bench: Rethinking Human Preference Evaluation Metrics for Benchmarking
+Face Generation, Customization, and Restoration">
+  <meta property="og:title" content="F-Bench: Rethinking Human Preference Evaluation Metrics for Benchmarking
+Face Generation, Customization, and Restoration"/>
+  <meta property="og:description" content="F-Bench: Rethinking Human Preference Evaluation Metrics for Benchmarking
+Face Generation, Customization, and Restoration"/>
+  <meta property="og:url" content="https://github.com/lettieliu/F-bench"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="F-Bench: Rethinking Human Preference Evaluation Metrics for Benchmarking
+Face Generation, Customization, and Restoration">
+  <meta name="twitter:description" content="MoRF avatars are created from short monocular videos and can be rendered in real-time (30+ FPS, 640x640px) on mobile devices">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>F-Bench: Rethinking Human Preference Evaluation Metrics for Benchmarking
+Face Generation, Customization, and Restoration</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <!-- <h1 class="title is-1 publication-title">
+              <a style="color:black;">F-bench</a>: <a style="color:black;">Rethinking Human Preference Evaluation Metrics for Benchmarking
+Face Generation, Customization, and Restoration</a> </h1> -->
+<h1 class="title is-1 publication-title"><a style="color:#86d2dc;font-weight:bold; font-style:italic;">F-bench</a>: <a style="color:black;">Rethinking Human Preference Evaluation Metrics for Benchmarking
+Face Generation, Customization, and Restoration</a> </h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">Lu Liu<sup>1</sup>,</span>
+              <span class="author-block">Huiyu Duan<sup>1</sup>,</span>
+              <span class="author-block">Qiang Hu,*<sup>1</sup>,</span>
+              <span class="author-block">Liu Yang<sup>1</sup>,</span>
+              <span class="author-block">Chunlei Cai<sup>2</sup>,</span>
+              <span class="author-block">Tianxiao Ye<sup>2</sup>,</span>
+              <span class="author-block">Huayu Liu<sup>1</sup>,</span>
+              <span class="author-block">Xiaoyun Zhang<sup>1</sup>,</span>
+              <span class="author-block">Guangtao Zhai<sup>1</sup></span>
+            </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Shanghai Jiao Tong University,</span>
+              <span class="author-block"><sup>2</sup>Bilibili Inc.</span>
+            </div>
+            <div class="is-size-5 has-text-centered" style="margin-top: 0.5rem;">
+  <strong style="color:#86d2dc; font-size: 1.1em;">✨ ICCV 2025 Highlight ✨</strong>
+</div>
+
+                  <!-- ArXiv Link -->
+                  <span class="link-block">
+                    <a href="https://arxiv.org/abs/2412.13155" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                  <span class="link-block">
+                    <a href="https://arxiv.org/abs/2412.13155" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/MediaX-SJTU/F-Bench" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+
+                  <br>
+
+                
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+    <center>
+      <img src="static/images/1.png" alt="Method"/>
+      <h2 class="subtitle has-text-centered">
+        We present the first AI-generated Face (AIGF) quality assessment database, bench and model, termed FaceQ, F-bench and F-Eval, respectively
+      </h2>
+    </center>
+    </div>
+  </div>
+</section>
+
+<!-- <video poster="" id="steve" autoplay controls muted loop playsinline height="100%"> -->
+
+<!-- <section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-chair-t">
+        <center>
+          <video poster="" id="chair-t" controls muted loop playsinline width="80%" height="80%">
+            <source src="./static/videos/output_1.mp4"
+                    type="video/mp4">
+          </video>
+        </center>
+        </div>
+        <div class="item item-chair-tp">
+        <center>
+          <video poster="" id="chair-tp" controls muted loop playsinline width="80%" height="80%">
+            <source src="./static/videos/output_0.mp4"
+                    type="video/mp4">
+          </video>
+        </center>
+        </div>
+        <div class="item item-shiba">
+        <center>
+          <video poster="" id="shiba" controls muted loop playsinline width="80%" height="80%">
+            <source src="./static/videos/output_2.mp4"
+                    type="video/mp4">
+          </video>
+        </center>
+        </div>
+        <div class="item item-fullbody">
+        <center>
+          <video poster="" id="fullbody" controls muted loop playsinline width="80%" height="80%">
+            <source src="./static/videos/output_9.mp4"
+                    type="video/mp4">
+          </video>
+        </center>
+        </div>
+        <div class="item item-blueshirt">
+        <center>
+          <video poster="" id="blueshirt" controls muted loop playsinline width="80%" height="80%">
+            <source src="./static/videos/output_16.mp4"
+                    type="video/mp4">
+          </video>
+        </center>
+        </div>
+        <div class="item item-mask">
+        <center>
+          <video poster="" id="mask" controls muted loop playsinline width="80%" height="80%">
+            <source src="./static/videos/output_11.mp4"
+                    type="video/mp4">
+          </video>
+        </center>
+        </div>
+        <div class="item item-coffee">
+        <center>
+          <video poster="" id="coffee" controls muted loop playsinline width="80%" height="80%">
+            <source src="./static/videos/output_3.mp4"
+                    type="video/mp4">
+          </video>
+        </center>
+        </div>
+        <div class="item item-coffee">
+          <center>
+            <video poster="" id="coffee" controls muted loop playsinline width="80%" height="80%">
+              <source src="./static/videos/output_13.mp4"
+                      type="video/mp4">
+            </video>
+          </center>
+        </div>
+        <div class="item item-coffee">
+          <center>
+            <video poster="" id="coffee" controls muted loop playsinline width="80%" height="80%">
+              <source src="./static/videos/output_4.mp4"
+                      type="video/mp4">
+            </video>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<section class="hero teaser">
+  <div class="hero-body has-text-justified">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <div class="container">
+          Recent artificial intelligence (AI) generative models have demonstrated remarkable capabilities in image production, and have been widely applied to face image generation, customization, and restoration.
+However, many AI-generated faces (AIGFs) still suffer from issues such as unique distortions, unrealistic details, and unexpected identity shifts, underscoring the need for a comprehensive quality evaluation method for AIGFs.
+          <br>
+          <br>
+        </div>
+        <div class="container">
+         To this end, we introduce \textbf{FaceQ}, the first comprehensive AI-generated \textbf{\underline{Face}} image database with fine-grained \textbf{\underline{Q}}uality annotations aligned with human preferences, which consists of 12K images and 491K ratings across multiple dimensions.
+Using the FaceQ database, we establish \textbf{F-Bench}, a benchmark for comparing and evaluating face generation, customization, and restoration models, highlighting strengths and weaknesses across various prompts and evaluation dimensions.
+Additionally, we assess the performance of existing image quality assessment (IQA) methods on FaceQ, and further propose a large multimodal model (LMM) based \textbf{\underline{F}}ace quality \textbf{\underline{Eval}}uator (\textbf{F-Eval}) to accurately assess the multi-dimensional quality of generated faces in a one-for-all manner.
+Extensive experimental results demonstrate the state-of-the-art performance of our F-Eval.
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="hero-body has-text-justified">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+
+
+        <br>
+        <br>
+        <br>
+        <h2 class="title has-text-centered">FaceQ</h2>
+        <div class="container">
+          An overview of the content of FaceQ. Rating comparisons of eight dimensions. Each column presents a pair of intuitive examples of each dimension, with red
+indicating the better rating and blue indicating the worse one. From left to right, the subsets are face generation, face customization, and
+face restoration subsets. The last row displays the corresponding prompts, reference image-prompt pairs, and the GT-LQ image pairs.
+          <br>
+          <br>
+        </div>
+        <img src="static/images/2.png" alt="Method"/>
+        <br>
+        <br>
+        <br>
+
+         <br>
+        <br>
+        <br>
+        <h2 class="title has-text-centered">F-bench</h2>
+        <div class="container">
+          Average MOS score comparison across all models and dimensions. (a) Face generation. (b) Face customization. (c) Face
+restoration. The models are arranged in a clockwise order by release date.
+          <br>
+          <br>
+        </div>
+        <img src="static/images/10.png" alt="Method"/>
+        <img src="static/images/4.png" alt="Method"/>
+        <img src="static/images/5.png" alt="Another Image"/>
+        <br>
+        <br>
+        <br>
+
+        <br>
+        <br>
+        <br>
+        <h2 class="title has-text-centered">F-Eval</h2>
+        <div class="container">
+          The overall framework of F-Eval. F-Eval can evaluate quality, authenticity, correspondence, and identity fidelity in a one-for-all framework. It can process both single and paired images, along with prompts, to produce quality scores. It consists of three encoders,
+including a vision encoder, a face encoder, and a text tokenizer to process multi-modal inputs. These features are projected into the same
+space by trained projectors. A pre-trained large language model is utilized to fuse the features while fine-tuned with four LoRA experts.
+Specific LoRA will be activated by dimension ID, which is classified by a trainable router.
+          <br>
+          <br>
+        </div>
+        <img src="static/images/6.png" alt="Method"/>
+        <br>
+        <br>
+        <br>
+
+        <br>
+        <br>
+        <br>
+        <h2 class="title has-text-centered">Performance on generation and customization tasks</h2>
+        <div class="container">
+          Performance of state-of-the-art models and the proposed FineVQ on our established FineVD database in terms of the quality scoring task.
+          <br>
+          <br>
+        </div>
+        <img src="static/images/7.png" alt="Method"/>
+        <br>
+        <br>
+        <br>
+
+        <!-- <br>
+        <br>
+        <br>
+        <h2 class="title has-text-centered">Performance on Other VQA databases</h2>
+        <div class="container">
+          Performance comparison between state-of-the-art VQA methods and the proposed FineVQ on six UGC VQA databases
+          <br>
+          <br>
+        </div>
+        <img src="static/images/8.png" alt="Method"/>
+        <br>
+        <br>
+        <br> -->
+        <br>
+<br>
+<br>
+<h2 class="title has-text-centered">Performance on restoration task</h2>
+<div class="container">
+  Performance comparison between state-of-the-art VQA methods and the proposed FineVQ on six UGC VQA databases
+  <br><br>
+</div>
+
+<!-- 两张图并列 -->
+<div class="columns is-centered">
+  <div class="column is-half has-text-centered">
+    <img src="static/images/8.png" alt="Method 1" style="max-width: 100%;">
+  </div>
+  <div class="column is-half has-text-centered">
+    <img src="static/images/9.png" alt="Method 2" style="max-width: 100%;">
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <
+    </div>
+  </div>
+</section> -->
+
+
+<!-- <section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+
+
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!-- <br>
+<br>
+<br>
+<br>
+<h2 class="title has-text-centered">Qualitative Novel View Results</h2>
+
+<div class="container">
+  Our method also has the capability to produce realistic novel views of multiple objects. Using the Rotation + SAM + Inpaint parts of our method, we show qualitative results of our methods ability to generate novel views given an RGB-D image.
+  <br>
+  <br>
+</div>
+<img src="static/images/Inpainted_Qualitative.png" alt="Method"/>
+
+
+<br>
+<br>
+<br>
+<br> -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@inproceedings{liu2025fbench,
+      title={F-Bench: Rethinking Human Preference Evaluation Metrics for Benchmarking
+Face Generation, Customization, and Restoration},
+      author={Lu Liu, Huiyu Duan, Qiang Hu, Liu Yang, Chunlei Cai, Tianxiao Ye, Huayu Liu, Xiaoyun Zhang, Guangtao Zhai},
+      booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+      year={2025}
+}
+</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+
+
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc/3.0/88x31.png"/>
+            </a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons Attribution-NonCommercial 4.0 International License</a> (CC-BY-NC).
+          </p>
+          <p>
+            This webpage is built with the template from <a
+                  href="https://github.com/nerfies/nerfies.github.io" target="_blank">NeRFies</a>. We sincerely thank <a href="https://keunhong.com/" target="_blank">Keunhong Park</a> for developing and open-sourcing this template.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
