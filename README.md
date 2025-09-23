@@ -1,5 +1,5 @@
 ## Project page
-Goto https://samsunglabs.github.io/FineControlNet-project-page
+Goto [F-Bench-project-page](https://mediax-sjtu.github.io/F-Bench/)
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
